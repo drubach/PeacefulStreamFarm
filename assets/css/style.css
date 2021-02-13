@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Exo:100,200,300,400,500,6000,700');
+
+/* ---------------------------------------- Colors */
+
+.bg-color-nav {
+    background-color: antiquewhite;
+}
+
+.bg-color-heading {
+    background-color: antiquewhite;
+}
+
+/* ---------------------------------------- Nav */
+
+nav {
+    margin: 0;
+    color: chocolate;
+}
+
+/* ---------------------------------------- Header */
+
+header {
+    margin: 0;
+}
+
+.heading-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: burlywood;
+}
+
+.sub-heading-text {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: burlywood;
+}
+/* ----------------------------------------Special paddings/margins/text */
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* ----------------------------------------Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0,0,0,0.2);
+    height: 120px;
+}
+
+/* ----------------------------------------Contact form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    columns: #fafafa;
+    background-color: #e84610;
+}
