@@ -10,10 +10,6 @@
     background-color: antiquewhite;
 }
 
-.bg-color-footer {
-    background-color: antiquewhite;
-}
-
 .bg-color-product {
     background-color: lightgoldenrodyellow;
 }
@@ -32,6 +28,10 @@
 
 .bg-color-faq {
     background-color: lightgoldenrodyellow;
+}
+
+.bg-color-footer {
+    background-color: antiquewhite;
 }
 
 /* ---------------------------------------- Nav */
@@ -83,7 +83,8 @@ h1, h2, h3, h4 {
 
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0,0,0,0.2);
-    height: 120px;
+    height: 75px;
+    color: whitesmoke;
 }
 
 /* ----------------------------------------Contact form */
