@@ -10,11 +10,15 @@
     background-color: antiquewhite;
 }
 
+.bg-color-footer {
+    background-color: antiquewhite;
+}
+
 /* ---------------------------------------- Nav */
 
-nav {
+#nav {
     margin: 0;
-    color: chocolate;
+    text-align: center;
 }
 
 /* ---------------------------------------- Header */
@@ -27,12 +31,15 @@ header {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: burlywood;
+    text-align: center;
+    padding-top: 25px;
 }
 
 .sub-heading-text {
     font-family: "Exo", sans-serif;
     font-weight: 500;
     color: burlywood;
+    text-align: center;
 }
 /* ----------------------------------------Special paddings/margins/text */
 
@@ -75,4 +82,37 @@ button[type="submit"] {
     margin-bottom: 20px;
     columns: #fafafa;
     background-color: #e84610;
+}
+
+/* ---------------------------------------- Menu Items */
+
+.menuitem {
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: burlywood;
+    height: 100px;
+    font-size: 18px;
+}
+
+.menuitem a i {
+    padding-top: 25px;
+    padding-left: 5px;
+    display: block;
+    color: burlywood;
+    font-size: 18px;
+}
+
+.logo-usda {
+    background: url("../images/logo-usda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
 }
