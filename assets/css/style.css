@@ -14,6 +14,26 @@
     background-color: antiquewhite;
 }
 
+.bg-color-product {
+    background-color: lightgoldenrodyellow;
+}
+
+.bg-color-review {
+    background-color: lightgoldenrodyellow;
+}
+
+.bg-color-pickup {
+    background-color: lightgoldenrodyellow;
+}
+
+.bg-color-contact {
+    background-color: lightgoldenrodyellow;
+}
+
+.bg-color-faq {
+    background-color: lightgoldenrodyellow;
+}
+
 /* ---------------------------------------- Nav */
 
 #nav {
@@ -41,6 +61,10 @@ header {
     color: burlywood;
     text-align: center;
 }
+
+/* ---------------------------------------- Product */
+
+
 /* ----------------------------------------Special paddings/margins/text */
 
 h1, h2, h3, h4 {
@@ -115,4 +139,5 @@ button[type="submit"] {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100px;
+    min-width: 100px;
 }
