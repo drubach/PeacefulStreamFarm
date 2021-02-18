@@ -20,4 +20,6 @@
 15) marketPride - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fareyouawellbeing.texashealth.org%2Fwp-content%2Fuploads%2F2016%2F04%2F471212366-woman-farmers-market-vegetables.jpg&f=1&nofb=1
 16) redOnions - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fgroup-of-red-onions-bright-purple-color-of-this-delicious-vegetable-picture-id1149168871%3Fk%3D6%26m%3D1149168871%26s%3D170667a%26w%3D0%26h%3DbZzQzfCsORqdEavNYbQBtZ6FL4k9CHI0J7h3GvzJN4Y%3D&f=1&nofb=1
 17) bigBarn2 - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgoldenlawharrow.com%2Fwp-content%2Fuploads%2F2016%2F06%2FFarm-and-Commercial-Properties.jpg&f=1&nofb=1
+18) fruitTree - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.7_-N9jP-nbSauyM-Ogm5twHaE8%26pid%3DApi&f=1
+
 
