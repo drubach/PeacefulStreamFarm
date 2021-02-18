@@ -60,7 +60,58 @@ header {
     font-weight: 500;
     color: burlywood;
     text-align: center;
+    padding-top: 5px;
     padding-bottom: 10px;
+}
+
+/* ---------------------------------------- Products */
+
+.btn-prod {
+    background-color: burlywood;
+    border-color: burlywood;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-prod:hover {
+    background-color: white;
+    border-color: burlywood;
+    color: burlywood;
+    text-decoration: none;
+}
+
+/* ---------------------------------------- Pickup locations */
+
+.container-fluid {
+    padding-left: 0;
+}
+
+.location {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.location span {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color: burlywood;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.location-img {
+    background: url("../images/marketPride.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 210px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /* ---------------------------------------- Image-containers */
@@ -71,11 +122,9 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -86,11 +135,9 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -101,11 +148,9 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -116,11 +161,9 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -131,11 +174,9 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -146,11 +187,9 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -195,7 +234,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     columns: #fafafa;
-    background-color: #e84610;
+    background-color: burlywood;
 }
 
 /* ---------------------------------------- Menu Items */
