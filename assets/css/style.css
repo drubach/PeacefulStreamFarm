@@ -49,7 +49,7 @@ header {
 
 .heading-text {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     color: burlywood;
     text-align: center;
     padding-top: 10px;
@@ -60,19 +60,59 @@ header {
     font-weight: 500;
     color: burlywood;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 10px;
 }
 
 /* ---------------------------------------- Products */
 
+p {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.product-section {
+    padding-bottom: 15px;
+}
+
+.product {
+    background-color: whitesmoke;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color: burlywood;
+    text-align: center;
+    margin-left: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 80%;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:burlywood;
+}
+
+.block-divider--short {
+    width: 40px;
+}
+
+button {
+    box-shadow: none;
+    border-style: none;
+}
+
 .btn-prod {
     background-color: burlywood;
     border-color: burlywood;
-    border-radius: 15px;
+    border-radius: 30px;
     min-width: 100px;
     font-weight: bold;
-    margin-top: 10px;
+    text-align: center;
     color: white;
 }
 
@@ -83,15 +123,35 @@ header {
     text-decoration: none;
 }
 
+
+
+/* ---------------------------------------- Reviews */
+
+.review-section {
+    padding-bottom: 15px;
+}
+
+.review {
+    background-color: whitesmoke;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color: burlywood;
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 70%;
+}
+
 /* ---------------------------------------- Pickup locations */
 
-.container-fluid {
-    padding-left: 0;
+.pickup-section {
+    padding-bottom: 15px;
 }
 
 .location {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 120px;
 }
 
 .location span {
@@ -108,10 +168,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 210px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    min-height: 360px;
+    max-height: 360px;
 }
 
 /* ---------------------------------------- Image-containers */
@@ -207,10 +265,14 @@ h1, h2, h3, h4 {
     display: inline-block;
 }
 
+.container-fluid {
+    padding-left: 0;
+}
+
 /* ----------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.15);
     height: 75px;
     color: whitesmoke;
 }
@@ -235,6 +297,12 @@ button[type="submit"] {
     margin-bottom: 20px;
     columns: #fafafa;
     background-color: burlywood;
+}
+
+/* ---------------------------------------- Footer */
+
+footer {
+    padding-top: 20px;
 }
 
 /* ---------------------------------------- Menu Items */
@@ -267,6 +335,6 @@ button[type="submit"] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100px;
-    min-width: 100px;
+    max-height: 50px;
+    max-width: 50px;
 }
