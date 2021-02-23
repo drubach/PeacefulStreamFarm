@@ -3,11 +3,11 @@
 /* ---------------------------------------- Colors */
 
 .bg-color-nav {
-    background-color: antiquewhite;
+    background-color: firebrick;
 }
 
 .bg-color-heading {
-    background-color: antiquewhite;
+    background-color: firebrick;
 }
 
 .bg-color-product {
@@ -31,7 +31,7 @@
 }
 
 .bg-color-footer {
-    background-color: antiquewhite;
+    background-color: firebrick;
 }
 
 /* ---------------------------------------- Nav */
@@ -50,7 +50,7 @@ header {
 .heading-text {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    color: burlywood;
+    color: lightgoldenrodyellow;
     text-align: center;
     padding-top: 10px;
 }
@@ -58,7 +58,7 @@ header {
 .sub-heading-text {
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    color: burlywood;
+    color: lightgoldenrodyellow;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -74,6 +74,23 @@ p {
     font-size: 18px;
 }
 
+.heading-text2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: firebrick;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sub-heading-text2 {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: firebrick;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 .product-section {
     padding-bottom: 15px;
 }
@@ -82,7 +99,7 @@ p {
     background-color: whitesmoke;
     font-family: "Exo", sans-serif;
     font-weight: 400;
-    color: burlywood;
+    color: firebrick;
     text-align: center;
     margin-left: 10%;
     padding-top: 15px;
@@ -94,36 +111,29 @@ p {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color:burlywood;
+    background-color:firebrick;
 }
 
 .block-divider--short {
     width: 40px;
 }
 
-button {
-    box-shadow: none;
-    border-style: none;
-}
-
 .btn-prod {
-    background-color: burlywood;
-    border-color: burlywood;
-    border-radius: 30px;
-    min-width: 100px;
-    font-weight: bold;
+    background-color: firebrick;
+    border-color: firebrick;
+    border-radius: 25px;
+    min-width: 75px;
     text-align: center;
     color: white;
+    margin-left: 47%;
 }
 
 .btn-prod:hover {
     background-color: white;
-    border-color: burlywood;
-    color: burlywood;
+    border-color: firebrick;
+    color: firebrick;
     text-decoration: none;
 }
-
-
 
 /* ---------------------------------------- Reviews */
 
@@ -135,7 +145,7 @@ button {
     background-color: whitesmoke;
     font-family: "Exo", sans-serif;
     font-weight: 400;
-    color: burlywood;
+    color: firebrick;
     text-align: center;
     margin-left: 15%;
     padding-top: 15px;
@@ -157,7 +167,7 @@ button {
 .location span {
     font-family: "Exo", sans-serif;
     font-weight: 400;
-    color: burlywood;
+    color: firebrick;
     text-align: center;
     padding-top: 0;
     padding-bottom: 0;
@@ -170,6 +180,124 @@ button {
     background-size: cover;
     min-height: 360px;
     max-height: 360px;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+/* ----------------------------------------Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0,0,0,0.15);
+    height: 75px;
+    color: whitesmoke;
+}
+
+/* ----------------------------------------Contact form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 15px;
+    color: firebrick;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.form-control {
+    color: firebrick;
+}
+
+.label-color {
+    color: firebrick;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    columns: #fafafa;
+    background-color: firebrick;
+}
+
+/* ---------------------------------------- FAQ */
+
+.card {
+    background-color: lightgoldenrodyellow;
+    color: firebrick;
+}
+
+.mb-0 button {
+    color: firebrick;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mb-0 button:hover,
+.mb-0 button:active {
+    color: firebrick;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ---------------------------------------- Footer */
+
+footer {
+    padding-top: 20px;
+}
+
+/* ---------------------------------------- Menu Items */
+
+.menuitem {
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    height: 100px;
+    font-size: 18px;
+}
+
+.menuitem a i {
+    padding-top: 10px;
+    padding-left: 5px;
+    display: block;
+    color: lightgoldenrodyellow;
+    font-size: 18px;
+}
+
+.logo-usda {
+    background: url("../images/logo-usda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 50px;
+    max-width: 50px;
 }
 
 /* ---------------------------------------- Image-containers */
@@ -214,7 +342,7 @@ button {
 
 .img4-container{
     height: 30vh;
-    background: url("../images/greenField.png") no-repeat bottom right fixed; 
+    background: url("../images/cowHi.png") no-repeat top right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -227,7 +355,7 @@ button {
 
 .img5-container{
     height: 30vh;
-    background: url("../images/vegWide.png") no-repeat bottom right fixed; 
+    background: url("../images/red-barn-stream.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -249,92 +377,4 @@ button {
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-/* ----------------------------------------Special paddings/margins/text */
-
-h1, h2, h3, h4 {
-    margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.container-fluid {
-    padding-left: 0;
-}
-
-/* ----------------------------------------Hover.css */
-
-.hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.15);
-    height: 75px;
-    color: whitesmoke;
-}
-
-/* ----------------------------------------Contact form */
-
-.contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    columns: #fafafa;
-    background-color: burlywood;
-}
-
-/* ---------------------------------------- Footer */
-
-footer {
-    padding-top: 20px;
-}
-
-/* ---------------------------------------- Menu Items */
-
-.menuitem {
-    height: 50px;
-    text-align: center;
-    align-items: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: burlywood;
-    height: 100px;
-    font-size: 18px;
-}
-
-.menuitem a i {
-    padding-top: 10px;
-    padding-left: 5px;
-    display: block;
-    color: burlywood;
-    font-size: 18px;
-}
-
-.logo-usda {
-    background: url("../images/logo-usda.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 50px;
-    max-width: 50px;
 }
