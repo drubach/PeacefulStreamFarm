@@ -238,6 +238,8 @@ button[type="submit"] {
     margin-bottom: 20px;
     columns: #fafafa;
     background-color: firebrick;
+    border: firebrick;
+    border-radius: 35px;
 }
 
 /* ---------------------------------------- FAQ */
