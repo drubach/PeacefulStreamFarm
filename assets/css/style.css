@@ -36,10 +36,6 @@
 
 /* ---------------------------------------- HTML */
 
-/*--html, body  {
-    min-height: 100vh;
-}--*/
-
 html {
    margin: 0px;
    height: 100%;
@@ -57,6 +53,10 @@ body {
 #nav {
     margin: 0;
     text-align: center;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
 }
 
 /* ---------------------------------------- Header */
@@ -110,7 +110,7 @@ p {
 }
 
 .product-section {
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .product {
@@ -121,19 +121,16 @@ p {
     text-align: center;
     margin-left: 10%;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     max-width: 80%;
 }
 
+/*-- This was taken from the Whiskey drop project in class --*/
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
     background-color:firebrick;
-}
-
-.block-divider--short {
-    width: 40px;
 }
 
 .btn-prod {
@@ -143,7 +140,6 @@ p {
     min-width: 75px;
     text-align: center;
     color: white;
-   /*-- margin-left: 47%;--*/
 }
 
 .btn-prod:hover {
@@ -238,7 +234,7 @@ h1, h2, h3, h4 {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 70%;
 }
 
 .form-control {
@@ -308,7 +304,8 @@ footer {
     display: block;
     color: lightgoldenrodyellow;
     font-size: 18px;
-   /*-- margin-right: 30px;--*/
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .social-links .menuitem a i {
@@ -358,7 +355,7 @@ footer {
 
 .img4-container{
     height: 30vh;
-    background: url("../images/cowHi.png") no-repeat top right fixed; 
+    background: url("../images/cowHi.png") no-repeat top left fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -395,10 +392,112 @@ footer {
     position: relative;
 }
 
-@media only screen and (max-width:768px) {
-        .social-links .menuitem a i {
-        margin-left: 25px;
-        margin-right: 25px;
+@media only screen and (max-width:760px) {
+
+    .heading-text {
+        font-weight: 600;
+        padding-top: 5px;
+    }
+
+    .sub-heading-text {
+        font-size: 90%;
+        font-weight: 500;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }  
+
+    .heading-text2 {
+        font-weight: 600;
+        padding-top: 5px;
+    }
+
+    .sub-heading-text2 {
+        font-weight: 500;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .product    {
+        font-size: 90%;
+    }
+
+    .product-section {
+        padding-bottom: 5px;
+    }
+
+    .block-divider {
+        width: 45px;
+        height: 3px;
+    }
+
+    .product {
+        font-size: 90%;
+        font-weight: 400;
+        margin-left: 10%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .contact-heading {
+        font-size: 90%;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+
+    .center-form {
+        padding-top: 5px;
+        max-width: 90%;
+    }
+
+    .review-section {
+        padding-bottom: 5px;
+    }
+
+    .review {
+        font-size: 90%;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .pickup-section {
+        padding-bottom: 5px;
+    }
+
+    .location {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .location span {
+        font-size: 90%;
+        font-weight: 400;
+    }
+        
+    .menuitem {
+        height: 25px;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .menuitem a {
+        width: 100%;
+        text-decoration: none;
+        color: lightgoldenrodyellow;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .menuitem a i {
+        padding-top: 5px;
+        display: block;
+        color: lightgoldenrodyellow;
+        font-size: 12px;
+    }
+    .social-links .menuitem a i {
+        margin-left: 20px;
+        margin-right: 20px;
         padding: 0;
     }
 }

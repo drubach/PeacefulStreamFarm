@@ -25,31 +25,40 @@
         crossorigin="anonymous"></script>
 </head>
 <header class="bg-color-nav">
-    <div class="container">
+    <div class="container text-center">
         <div class="row no-gutters nav">
             <div class="col">
-                <ul id="nav" class="list-inline menucontainer">
-                    <li class="col-6 col-sm-2 list-inline-item menuitem">
-                        <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home"
-                                aria-hidden="true"></i><span>Home</span></a>
-                    </li>
-                    <li class="col-6 col-sm-2 list-inline-item menuitem">
-                        <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-check"
-                                aria-hidden="true"></i><span>Reviews</span></a>
-                    </li>
-                    <li class="col-6 col-sm-2 list-inline-item menuitem">
-                        <a href="index.html" class="hvr-sweep-to-bottom"><i class="fas fa-map-signs"
-                                aria-hidden="true"></i><span>Pickup</span></a>
-                    </li>
-                    <li class="col-6 col-sm-2 list-inline-item menuitem">
-                        <a href="faq.html" class="hvr-sweep-to-bottom"><i class="fa fa-question"
-                                aria-hidden="true"></i><span>FAQ</span></a>
-                    </li>
-                    <li class="col-6 col-sm-2 list-inline-item menuitem">
-                        <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment"
-                                aria-hidden="true"></i><span>Contact</span></a>
-                    </li>
-                </ul>
+                <nav class="navbar navbar-dark navbar-expand-sm">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item mr-2 menuitem">
+                                <a href="index.html" class="nav-link"><i class="fa fa-home d-none d-md-block"
+                                        aria-hidden="true"></i><span>Home</span></a>
+                            </li>
+                            <li class="nav-item mr-2 menuitem">
+                                <a href="index.html" class="nav-link"><i class="fas fa-check d-none d-md-block"
+                                        aria-hidden="true"></i><span>Reviews</span></a>
+                            </li>
+                            <li class="nav-item mr-2 menuitem">
+                                <a href="index.html" class="nav-link"><i class="fas fa-map-signs d-none d-md-block"
+                                        aria-hidden="true"></i><span>Pickup</span></a>
+                            </li>
+                            <li class="nav-item mr-2 menuitem">
+                                <a href="faq.html" class="nav-link"><i class="fa fa-question d-none d-md-block"
+                                        aria-hidden="true"></i><span>FAQ</span></a>
+                            </li>
+                            <li class="nav-item mr-2 menuitem">
+                                <a href="contact.html" class="nav-link"><i class="fa fa-comment d-none d-md-block"
+                                        aria-hidden="true"></i><span>Contact</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
 
         </div>
@@ -70,50 +79,19 @@
         <div class="container-fluid bg-color-contact">
             <div class="row no-gutters contact">
                 <div class="col">
-                    <h2 class="contact-heading uppercase text-center"><strong>Say Hi!</strong></h2>
-                    <h3 class="contact-heading text-center"><em>Get notified when we start our season!</em></h3>
-
-                    <!-- /. Majority copied from CI example Resume/CV site in class mini-project -->
+                    <h2 class="contact-heading uppercase text-center"><strong>Thanks for signing up!</strong></h2>
+                    <h3 class="contact-heading text-center"><em>We'll be in touch soon.</em></h3>
+                    <br>
                     <div class="center-form">
                         <form>
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
-                                required />
-                            <br>
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
-                                required />
-                            <br>
-                            <div class="input-group-inline">
-                                <div class="input-group-btn form-check-inline">
-                                    <input type="radio" id="beef-radio" aria-label="Radio button for beef" value="beef">
-                                    <label class="label-color" for="beef-radio">Beef</label>
-                                </div>
-                                <div class="input-group-btn form-check-inline">
-                                    <input type="radio" id="pork-radio" aria-label="Radio button for pork" value="pork">
-                                    <label class="label-color" for="pork-radio">Pork</label>
-                                </div>
-                                <div class="input-group-btn form-check-inline">
-                                    <input type="radio" id="veg-radio" aria-label="Radio button for veggies"
-                                        value="veg">
-                                    <label class="label-color" for="veg-radio">Veggies</label>
-                                </div>
-                                <div class="input-group-btn form-check-inline">
-                                    <input type="radio" id="fruit-radio" aria-label="Radio button for fruit"
-                                        value="fruit">
-                                    <label class="label-color" for="fruit-radio">Fruit</label>
-                                </div>
-                            </div>
-                            <br>
-                            <textarea name="comments" id="comments" rows="5" class="form-control"
-                                placeholder="Comments and questions" required></textarea>
-                            <br>
                             <div class="form-row text-center">
-                                <div class="col">
-                                    <p><a class="btn-prod btn-lg btn-light" href="contact_thanks.html">Sign Up!</a></p>
+                                <div class="col justify-content-center">
+                                    <p><a class="btn-prod btn-lg btn-light" href="index.html">Home</a></p>
                                 </div>
                             </div>
-                            <br>
                         </form>
                     </div>
+                    <br>
                 </div>
             </div>
         </div>
