@@ -51,8 +51,7 @@ body {
 /* ---------------------------------------- Nav */
 
 #nav {
-    margin: 0;
-    text-align: center;
+    margin-left: 0;
 }
 
 .navbar .navbar-toggler {
@@ -287,7 +286,6 @@ footer {
 .menuitem {
     height: 50px;
     text-align: center;
-    align-items: center;
     padding: 0;
 }
 
@@ -296,7 +294,9 @@ footer {
     text-decoration: none;
     color: lightgoldenrodyellow;
     height: 100px;
-    font-size: 18px;
+    font-size: 18px; 
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .menuitem a i {
@@ -304,8 +304,6 @@ footer {
     display: block;
     color: lightgoldenrodyellow;
     font-size: 18px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .social-links .menuitem a i {
@@ -392,7 +390,7 @@ footer {
     position: relative;
 }
 
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:768px) {
 
     .heading-text {
         font-weight: 600;
