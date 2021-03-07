@@ -188,7 +188,7 @@ p {
 }
 
 .location-img {
-    background: url("../images/marketPride.jpg");
+    background: url("../images/marketPride.webp");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,14 +310,10 @@ footer {
     font-size: 18px;
 }
 
-/*--.social-links .menuitem a i {
-   padding: 0 50px 0;
-}--*/
-
 /* ---------------------------------------- Image-containers */
 .img1-container{
     height: 30vh;
-    background: url("../images/bigBarn.png") no-repeat bottom right fixed; 
+    background: url("../images/bigBarn.webp") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -330,7 +326,7 @@ footer {
 
 .img2-container{
     height: 30vh;
-    background: url("../images/fruitTree.png") no-repeat bottom right fixed; 
+    background: url("../images/fruitTree.webp") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -343,7 +339,7 @@ footer {
 
 .img3-container{
     height: 30vh;
-    background: url("../images/berries.png") no-repeat bottom right fixed; 
+    background: url("../images/berries.webp") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -356,7 +352,7 @@ footer {
 
 .img4-container{
     height: 30vh;
-    background: url("../images/cowHi.png") no-repeat top left fixed; 
+    background: url("../images/cowHi.webp") no-repeat top left fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -369,7 +365,7 @@ footer {
 
 .img5-container{
     height: 30vh;
-    background: url("../images/red-barn-stream.jpg") no-repeat bottom right fixed; 
+    background: url("../images/red-barn-stream.webp") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -382,7 +378,7 @@ footer {
 
 .img6-container{
     height: 30vh;
-    background: url("../images/cowsResting.png") no-repeat bottom right fixed; 
+    background: url("../images/cowsResting.webp") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
