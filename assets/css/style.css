@@ -493,6 +493,17 @@ footer {
         font-size: 12px;
     }
 
+    .thanks {
+        height: 40vh;
+    }
+    
+    .thanks h2 {
+        padding-top: 5%;
+    }
 
+    .thanks h3 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
     
 }
