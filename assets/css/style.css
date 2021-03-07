@@ -58,6 +58,7 @@ body {
     border: 0;
 }
 
+
 /* ---------------------------------------- Header */
 
 header {
@@ -187,7 +188,7 @@ p {
 }
 
 .location-img {
-    background: url("../images/marketPride.png");
+    background: url("../images/marketPride.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,6 +241,10 @@ h1, h2, h3, h4 {
     color: firebrick;
 }
 
+#comments {
+    resize: none;
+}
+
 .label-color {
     color: firebrick;
     margin-left: 5px;
@@ -286,7 +291,7 @@ footer {
 .menuitem {
     height: 50px;
     text-align: center;
-    padding: 0;
+    padding: 0 50px 0;
 }
 
 .menuitem a {
@@ -295,8 +300,7 @@ footer {
     color: lightgoldenrodyellow;
     height: 100px;
     font-size: 18px; 
-    margin-left: 50px;
-    margin-right: 50px;
+  
 }
 
 .menuitem a i {
@@ -306,10 +310,9 @@ footer {
     font-size: 18px;
 }
 
-.social-links .menuitem a i {
-   margin-left: 50px;
-   margin-right: 50px;
-}
+/*--.social-links .menuitem a i {
+   padding: 0 50px 0;
+}--*/
 
 /* ---------------------------------------- Image-containers */
 .img1-container{
@@ -476,7 +479,7 @@ footer {
         height: 25px;
         text-align: center;
         align-items: center;
-        padding: 0;
+        padding: 0 20px 0;
     }
 
     .menuitem a {
@@ -493,9 +496,7 @@ footer {
         color: lightgoldenrodyellow;
         font-size: 12px;
     }
-    .social-links .menuitem a i {
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 0;
-    }
+
+
+    
 }
