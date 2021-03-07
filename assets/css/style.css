@@ -50,14 +50,9 @@ body {
 }
 /* ---------------------------------------- Nav */
 
-#nav {
-    margin-left: 0;
-}
-
 .navbar .navbar-toggler {
     border: 0;
 }
-
 
 /* ---------------------------------------- Header */
 
@@ -214,13 +209,6 @@ h1, h2, h3, h4 {
     padding-left: 0;
 }
 
-/* ----------------------------------------Hover.css */
-
-.hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.15);
-    height: 75px;
-    color: whitesmoke;
-}
 
 /* ----------------------------------------Contact form */
 
@@ -254,7 +242,7 @@ h1, h2, h3, h4 {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    columns: #fafafa;
+    color: #fafafa;
     background-color: firebrick;
     border: firebrick;
     border-radius: 35px;
@@ -300,7 +288,10 @@ footer {
     color: lightgoldenrodyellow;
     height: 100px;
     font-size: 18px; 
-  
+}
+
+.menuitem a:hover {
+    color: rgba(0,0,0,0.35)
 }
 
 .menuitem a i {
