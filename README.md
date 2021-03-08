@@ -74,8 +74,8 @@ This is the main marketing website for Peaceful Stream Farms. It is designed to 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://drubach.github.io/PeacefulStreamFarm/html_results.html)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://drubach.github.io/PeacefulStreamFarm/css_results.html/)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -134,7 +134,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some older Apple mobile devices the images do not scroll properly.
+-   On some older Apple mobile devices the background images do not scroll properly.
 
 ## Deployment
 
@@ -189,14 +189,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 -   The read me was created by editing this [sample readme](https://github.com/Code-Institute-Solutions/SampleREADME) from Code Institute.
 -   A significant portion of the code for this project was copied and edited from the previous projects I completed in the program.
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.2/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 ### Content
 -   All content was written by the developer.
 
 ### Media
 -   The screenshots of the application were created by the developer.
--   All other images were found by web searches.
+-   All other images were found by web searches. The source links are provided below.
     -   [berries](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F87818%2Fbackground-berries-berry-blackberries-87818.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&f=1&nofb=1)
     -   [bigBarn](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wallpaperup.com%2Fuploads%2Fwallpapers%2F2013%2F02%2F05%2F34896%2Fde2e06f99a18826a5b4341753b7faec1-700.jpg&f=1&nofb=1)
     -   [cowHi](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.technative.io%2Fwp-content%2Fuploads%2F2017%2F07%2FAdobeStock_55774465.jpg&f=1&nofb=1)
