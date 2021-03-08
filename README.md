@@ -74,8 +74,8 @@ This is the main marketing website for Peaceful Stream Farms. It is designed to 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: <a href="assets/images/css_results.pdf"></a>
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: <a href="assets/images/html_results.pdf"></a>
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results - <a href="assets/images/css_results.pdf"></a> <a href="assets/images/css_results.pdf" class="image fit" type="application/pdf"><span>css_results</span></a>
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: <a href="assets/images/html_results.pdf"></a> <a href="assets/images/html_results.pdf" class="image fit" type="application/pdf"><span>html_results</span></a>
 
 ### Testing User Stories from User Experience (UX) Section
 
