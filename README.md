@@ -39,7 +39,7 @@ This is the main marketing website for Peaceful Stream Farms. It is designed to 
                 
 *   ### Wireframes
     -   The wireframes that were developed were ideational. After discussions with my mentor and input from friends and family, colors and design elements were adjusted to be more attractive.
-    -   Site Wireframe - <a href="assets/wireframe/PeacefulStreamFarm-2.pdf"></a>
+    -   Site Wireframe - <a href="assets/images/PeacefulStreamFarm-2.pdf"></a>
 <a href="assets/images/PeacefulStreamFarm-2.pdf" class="image fit" type="application/pdf"><span>wireframe</span></a>
 
 ## Features
@@ -74,8 +74,8 @@ This is the main marketing website for Peaceful Stream Farms. It is designed to 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://drubach.github.io/PeacefulStreamFarm/html_results.html)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://drubach.github.io/PeacefulStreamFarm/css_results.html/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: <a href="assets/images/css_results.pdf"></a>
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: <a href="assets/images/html_results.pdf"></a>
 
 ### Testing User Stories from User Experience (UX) Section
 
